@@ -1,0 +1,14 @@
+__pycache__/
+
+# Distribution / packaging
+.Python
+virtualenv/
+
+# vscode
+.vscode/
+.DS_Store
+
+#local development files
+.env
+.python-version
+input/
