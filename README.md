@@ -52,10 +52,10 @@ From the container terminal we can then play the game using the example files pr
 
 ```
 # Example run 1
-python3 main.py -i src/docs/Sample.txt
+python3 main.py -i docs/Sample.txt
 
 # Example run 2
-python3 main.py -i src/docs/Sample2.txt
+python3 main.py -i docs/Sample2.txt
 ```
 
 #### Mounting local data to container for playing game with custom game definitions
