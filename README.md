@@ -70,5 +70,5 @@ And then we can play the maze game as before using our own files
 
 ```
 # Custom run 1
-python3 main.py -i src/mnt/CustomDef.txt
+python3 main.py -i mnt/CustomDef.txt
 ```
