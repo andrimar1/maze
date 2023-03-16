@@ -181,7 +181,7 @@ class Game:
                 self.direction = mirror_room.get_output_dir(self.direction)
 
         # Perform a move in direction
-        mover.get(self.direction, lambda: "Invalid direction")()
+        mover.get(self.direction)()
 
     def complete_game(self) -> None:
         dir = "V" if self.last_step["direction"] in ["UP", "DOWN"] else "H"
